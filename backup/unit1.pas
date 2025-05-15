@@ -87,7 +87,6 @@ begin
     end;
 
     // Adiciona ruído extra com linhas aleatórias
-    Bmp.Canvas.Pen.Color := clRed;
     for i := 1 to 15 do
     begin
       Bmp.Canvas.Pen.Color := RGB(Random(255), Random(255), Random(255)); // Cor aleatória
